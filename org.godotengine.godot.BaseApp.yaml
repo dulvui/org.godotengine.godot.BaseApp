@@ -1,5 +1,5 @@
 app-id: org.godotengine.godot.BaseApp
-branch: '3.5'
+branch: '3.6'
 runtime: org.freedesktop.Platform
 runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
@@ -55,8 +55,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: b43a1d6b29ea25bcbafbcebf7ba0843261aa1237e2739494538a2200d8c7be62
-        url: https://downloads.tuxfamily.org/godotengine/3.5.2/godot-3.5.2-stable.tar.xz
+        sha256: 5bed20a7056d4cc3cca34001752109809ad7ae200548e98c7bbc6afbad18eda7
+        url: https://downloads.tuxfamily.org/godotengine/3.6/godot-3.6-stable.tar.xz
 
       - type: patch
         path: godot-i386-disable-O3.patch
